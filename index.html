@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+<!-- =================  FAVICON  ========================================-->
+    <link rel="shortcut icon" href="img/favi-icon.png" type="image/x-icon" />
+
+<!-- ============================  REMIX-ICONS  ========================-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+<!-- ===========================  SWIPPER CSS  =========================-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+<!-- ===================  MAIN CSS  =================================-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+<!-- ============  HEADER =========================================== -->
+
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"> Pavan S </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="ri-home-4-line"></i> Home
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link active-link">
+                <i class="ri-trophy-line"></i> Skills
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#qualification" class="nav__link">
+                <i class="ri-book-open-line"></i> Qualification
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#services" class="nav__link">
+                <i class="ri-briefcase-line"></i> Services
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">
+                <i class="ri-image-line"></i> Projects
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="ri-chat-3-line"></i> Contact
+              </a>
+            </li>
+          </ul>
+
+<!-- ======== CLOSE BUTTON ==================================== -->
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__buttons">
+<!-- ================== Theme change Button ======================-->
+
+<i class="ri-moon-line change-theme" id="theme-button"></i>
+
+<!-- ===================== Toggle Button ================= -->
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+<!-- =================  MAIN =========================================== -->
+
+    <main class="main" id="main">
+<!-- ==================  HOME =========================================== -->
+
+      <section class="home section" id="home">
+        <div class="home__container container grid section__border">
+          <div class="home__data grid">
+            <h1 class="home__title">
+              Hi, I'm Pavan <br />
+              Frontend Developer <br />
+            </h1>
+
+            <div class="home__blob grid">
+              <div class="home__perfil">
+                <img src="img/profile-image.png" alt="home perfil" />
+              </div>
+              <img src="img/shape-waves.svg" alt="" class="home__shape-wawes" />
+              <img
+                src="img/shape-circle.svg"
+                alt=""
+                class="home__shape-circle"
+              />
+            </div>
+
+            <ul class="home__social">
+              <a
+                href="https://www.linkedin.com/in/pavan-s-5b80951aa/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-linkedin-box-fill"></i>
+              </a>
+
+              <a
+                href="https://github.com/pavan-s-5"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-github-fill"></i>
+              </a>
+
+     
+              </a>
+            </ul>
+          </div>
+
+<!-- =============  HOME INFO 1  ====================== -->
+
+          <div class="home__info">
+            <div>
+              <h3 class="home__info-title">BIOGRAPHY</h3>
+
+              <p class="home__info-description" style="font-size: 10px;">
+                Hi, I'm Pavan, <br/>
+                Frontend Web Developer. <br/> <br/>
+                Passionate in designing, developing and implementing entry level scalable and responsive web applications. With a keen attention to detail and a passion for creating seamless user experiences and visually stunning web applications and Seeking opportunity in tech career as a Front-End developer.  
+              </p>
+            </div>
+
+            <div>
+              <h3 class="home__info-title">Contact</h3>
+
+              <p class="home__info-description" style="font-size: 12px; display: flex; flex-direction: column;">
+                
+              <i class="ri-mail-line"> pavansgowda500@gmail.com</i>   <br />
+               <i class="ri-phone-fill"> +91 8310492341 </i> <br />
+               <i class="ri-map-pin-2-line"> Bengaluru, India</i>
+              </p>
+            </div>
+
+            <div>
+              <h3 class="home__info-title">SERVICES</h3>
+
+              <p class="home__info-description" style="font-size: 10px;">
+                Website Design <br />
+                Website Developement <br />
+                Photoshop / Canva<br />
+                Figma Design <br />
+              </p>
+            </div>
+          </div>
+
+<!-- =======================  HOME INFO 2  ================================ -->
+
+          <div class="home__info">
+            <div>
+              <h3 class="home__info-title">YEARS OF EXPERIENCE</h3>
+              <p class="home__info-number" style="font-size: 12px;">
+                Fresher 
+              </p>
+            </div>
+
+            <div>
+              <h3 class="home__info-title">COMPLETED PROJECTS</h3>
+              <p class="home__info-number">6+</p>
+            </div>
+
+            <div>
+              <h3 class="home__info-title">Resume</h3>
+              <!-- for sample image is been added here, so when user clicks the favi-icon img will be downloaded.
+               once the resume is built add the pdf file in the place of image. -->
+              <a href="img/favi-icon.png" download><button class="home__info-number resume">Download CV</button></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!-- ==============================  SKILLS =============================== -->
+
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My favorite skills</span>
+
+        <div class="skills__container container grid section__border">
+<!-- ==============================  SKILL 1 ============================== -->
+
+          <div class="skills__content">
+            <h3 class="skills__title">
+              <i class="ri-braces-line"></i> Frontend Web Developer
+            </h3>
+
+            <div class="skills__info">
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="img/html-logo-svg.svg" alt="skills image" />
+                </div>
+                <h3 class="skill__name">HTML</h3>
+                <span class="skills__subtitle">Intermediate</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="img/css-logo-svg.svg" alt="skills image" />
+                </div>
+                <h3 class="skill__name">CSS</h3>
+                <span class="skills__subtitle">Intermediate</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="img/sass.svg" alt="skills image" />
+                </div>
+                <h3 class="skill__name">SASS</h3>
+                <span class="skills__subtitle">Intermediate</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="img/tailwind.svg" alt="skills image" />
+                </div>
+                <h3 class="skill__name">TAILWIND CSS</h3>
+                <span class="skills__subtitle">Basic</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="img/javascript-logo-svg.svg" alt="skills image" />
+                </div>
+                <h3 class="skill__name">JAVASCRIPT</h3>
+                <span class="skills__subtitle">Intermediate</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="img/react-logo-svg.svg" alt="skills image" />
+                </div>
+                <h3 class="skill__name">REACT</h3>
+                <span class="skills__subtitle">Intermediate</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="img/redux.svg" alt="skills image" />
+                </div>
+                <h3 class="skill__name">REACT-REDUX</h3>
+                <span class="skills__subtitle">Basic</span>
+              </div>
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="img/git.svg" alt="skills image" />
+                </div>
+                <h3 class="skill__name">GIT</h3>
+                <span class="skills__subtitle">Basic</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!-- ==================  QUALIFICATION ================================== -->
+
+      <section class="qualification section"  id="qualification">
+        <h2 class="section__title">Qualification</h2>
+        <span class="section__subtitle">Education</span>
+        <div class="qualification__container container grid section__border">
+<!-- ====================  QUALIFICATION 1 ================================== -->
+          <div class="qualification__content">
+            <h3 class="qualification__title">
+              <i class="ri-pencil-ruler-2-line"></i> Education
+            </h3>
+            <div class="qualification__info">
+              <div>
+                <h3 class="qualification__name">BSc in Computer Science</h3>
+                <span class="quaification__country">
+                  Bengaluru - University
+                </span>
+
+                <span class="quaification__year">2016 - 2019</span>
+              </div>
+            </div>
+
+            <div class="qualification__info">
+              <div>
+                <h3 class="qualification__name">Full Stack Web Developement</h3>
+                <span class="quaification__country"> Unique Technologies</span>
+                <span class="quaification__year">2020 - 2021</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="img/shape-circle.svg"
+          alt="qualification img"
+          class="qualification__img"
+        />
+      </section>
+
+<!-- ==============================  SERVICES ============================= -->
+
+      <section class="services section" id="services">
+        <h2 class="section__title">Services</h2>
+        <span class="section__subtitle">What I offer</span>
+
+        <div class="services__container container grid section__border">
+          <div class="services__card">
+            <i class="ri-layout-5-line"></i>
+
+            <h2 class="services__title">
+              Canva / Photoshop <br />
+              Editing
+            </h2>
+
+            <p class="services__description" style="font-size: 10px;"> Proficient in utilizing graphic design tools such as Canva and Adobe Photoshop to create visually appealing and engaging content for various digital platforms.
+            </p>
+
+            <div class="services__border"></div>
+          </div>
+
+          <div class="services__card">
+            <i class="ri-code-s-slash-line"></i>
+
+            <h2 class="services__title">
+              Website <br />
+              Developement
+            </h2>
+
+            <p class="services__description" style="font-size: 10px;">
+              An enthusiast Front-end Developer, passionate in designing, developing and implementing entry level scalable and responsive web applications.</p>
+
+            <div class="services__border"></div>
+          </div>
+        </div>
+      </section>
+
+<!-- ==============================  PROJECTS ============================ -->
+
+      <section class="projects section" id="projects">
+        <h2 class="section__title">Projects</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="container section__border">
+          <div class="projects__container swiper">
+            <div class="swiper-wrapper">
+<!-- ==============================  PROJECT 1 ============================ -->
+
+              <div class="projects__content swiper-slide">
+                <img
+                  src="img/movix.png"
+                  alt="projects img"
+                  class="projects__img"
+                />
+
+                <div>
+                  <span class="projects__subtitle">React js Web app</span>
+                  <h1 class="projects__title">MOVIX - React js Movie App</h1>
+                  <a href="https://github.com/pavan-s-5/Movix-MovieApp" class="projects__button">
+                    View Demo <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+
+<!-- ==============================  PROJECT 2 ============================= -->
+
+              <div class="projects__content swiper-slide">
+                <img
+                  src="img/kanon.png"
+                  alt="projects img"
+                  class="projects__img"
+                />
+
+                <div>
+                  <span class="projects__subtitle">React js Web App</span>
+                  <h1 class="projects__title">Kanon - theCameraStore</h1>
+                  <a href="https://github.com/pavan-s-5/KANON-client-react" class="projects__button">
+                    View Demo <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+
+<!-- ==============================  PROJECT 3 ========================== -->
+
+              <div class="projects__content swiper-slide">
+                <img
+                  src="img/gaana.gif"
+                  alt="projects img"
+                  class="projects__img"
+                />
+
+                <div>
+                  <span class="projects__subtitle">Inprogress - React js web app</span>
+                  <h1 class="projects__title">Gaana - Music website</h1>
+                  <a href="#" class="projects__button">
+                    View Demo <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+
+<!-- ==========================  PROJECT 4 ================================ -->
+
+              <div class="projects__content swiper-slide">
+                <img
+                  src="img/todo.png"
+                  alt="projects img"
+                  class="projects__img"
+                />
+
+                <div>
+                  <span class="projects__subtitle">React Js Web App</span>
+                  <h1 class="projects__title">Todo - Notes taking app</h1>
+                  <a href="https://github.com/pavan-s-5/Todo-App" class="projects__button">
+                    View Demo <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+<!-- ====================== SWIPER ARROWS ===================== -->
+
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </sectio
+      
+<!-- =====================  CONTACT ============================== -->
+
+      <section class="contacts section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid section__border">
+          <div class="contact__content">
+            <h3 class="contact__title">
+              <i class="ri-chat-3-line"></i> Talk to me
+            </h3>
+
+            <div class="contact__info">
+              <div class="contact__data">
+                <span class="contact_data-title">Email :</span>
+                <span class="contact_data-info">pavansgowda500@gmail.com</span>
+              </div>
+
+              <div class="contact__data">
+                <span class="contact_data-title">Call / Whatsapp</span>
+                <span class="contact_data-info">+91 8310492341</span>
+                <!-- Insert a real number plus country code -->
+                <a
+                  href="https://api.whatsapp.com/send?phone=918310492341&text=Hello, more information!"
+                  class="contact__button"
+                  target="_blank"
+                >
+                  Chat with me <i class="ri-chat-new-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__content">
+            <h3 class="contact__title">
+              Directly Email me <i class="ri-mail-line"></i> :
+            </h3>
+
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__form-div">
+                <label class="contact__form-tag">Name</label>
+                <input
+                  type="text"
+                  class="contact__form-input"
+                  id="contact-name"
+                  name="user_name"
+                  placeholder="Write your name"
+                  required
+                />
+              </div>
+
+              <div class="contact__form-div">
+                <label class="contact__form-tag">Mail</label>
+                <input
+                  type="email"
+                  class="contact__form-input"
+                  id="contact-email"
+                  name="user_email"
+                  placeholder="Write your email"
+                  required
+                />
+              </div>
+
+              <div class="contact__form-div contact__form-area">
+                <label class="contact__form-tag">Message</label>
+                <textarea
+                  name="user_message"
+                  id="user-message"
+                  class="contact__form-input"
+                  placeholder="Write your message here..."
+                ></textarea>
+              </div>
+
+              <p class="contact__message" id="contact-message"></p>
+
+              <button type="submit" class="contact__button">
+                submit <i class="ri-mail-send-line"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+<!-- ================  FOOTER ======================================= -->
+
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">Pavan S</h1>
+        <p>Frontend Developer</p>
+
+        <ul class="footer__list">
+          <li>
+            <a href="#home" class="footer__link">Home</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="footer__link">Skills</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="footer__link">Projects</a>
+          </li>
+        </ul>
+
+        <ul class="footer__social">
+
+          <a href="https://www.linkedin.com/in/pavan-s-5b80951aa/" class="footer__social-link" target="_blank">
+            <i class="ri-linkedin-box-line"></i>
+          </a>
+
+          <a href="https://github.com/pavan-s-5" class="footer__social-link" target="_blank">
+            <i class="ri-github-line"></i>
+          </a>
+
+        </ul>
+
+        <span class="footer__copy">
+          &#169; Copyright Pavan S. All rights reserved
+        </span>
+
+      </div>
+    </footer>
+
+<!-- ===================  SCROLL UP ================================ -->
+
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- =========================  SCROLL REVEAL ======================= -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- ========================= SWIPER JS ============================ -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- ========================= EMAIL JS ============================= -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <!-- =========================  MAIN JS ============================= -->
+    <script src="js/main_script.js"></script>
+  </body>
+</html>
